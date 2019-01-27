@@ -1,0 +1,17 @@
+# ----- Login Credentials -----
+
+Xero_url = https://www.xero.com/au/
+
+# ----- Timeouts -----
+page.navigation.timeout=60
+waitShort=1
+waitMedium=2
+waitLong=7
+waitVLong=20
+
+#----------Files Path----------
+path=/Documents/XeroTest/src/target
+sharePath=/Documents/XeroTest/src/target/AutomationReports
+login=src/test/resources/login.yml
+xero=src/test/resources/xero.yml
+TwoFactorAuthenticationKey=O5ZHURKGMNYEIUCRM5CUWZKDGY

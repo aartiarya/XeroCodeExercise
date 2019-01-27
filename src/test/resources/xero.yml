@@ -1,0 +1,12 @@
+Xero:
+- url>>https://www.xero.com/au/
+AddBankAccountToXero:
+- url>>https://www.xero.com/au/
+- emailAddress>>aartiarya.adc@gmail.com
+- password>>Xero@123
+- TwoFactorAuthenticationKey>>O5ZHURKGMNYEIUCRM5CUWZKDGY
+- username>>Aarti Arya
+- accountName>>Aarti Arya
+- accountType>>Everyday (day-to-day)
+- bsb>>087467
+- accountNumber>>7646890546
