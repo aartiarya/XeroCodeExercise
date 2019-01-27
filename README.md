@@ -74,6 +74,11 @@ NOTE: This test case is only designed to add a bank account in the condition tha
 
 I recommend you to use JUnit to run this test.
 
+YAML Used for input data
+=====================================================================
+.yml file is used for passing the data to the test case.
+xero.yml file contains the data used for this specific test
+
 Reporting
 =====================================================================
 
