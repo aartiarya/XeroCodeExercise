@@ -26,8 +26,9 @@ Dependencies
 This is how the project framework structure looks like
 ========================================================================
 
-├── src   
-│   └── test
+
+├── src   
+│   └── test
 │       ├── java
 │       │   ├── helpers
 │       │   │   └── DateFunctions.java
@@ -58,11 +59,18 @@ AddBankAccountToXero.java
 =====================================================================
 
 This test class is created to login to Xero account via two factor authentication and Add bank account details of specific user.
+
+Pre-Requisite:
+No bank account(ANZ (AU)) is added to the user account. If added already, please delete the bank account in order to successfully run the test.
+
 It has four steps:
 1. Login to Xero
 2. Perform two factor authentication
 3. Add ANZ(AU) Bank account to user 'Aarti Arya'
 4. Verify account is added successfully.
+5. Logout from xero
+
+NOTE: This test case is only designed to add a bank account in the condition that there is no bank account already added.
 
 I recommend you to use JUnit to run this test.
 
@@ -70,5 +78,5 @@ Reporting
 =====================================================================
 
 Extent Reporting is used for validating the test results
-1. Extent html report is generated under src/target/properties.test-env folder
-2. A PDF report is generated under src/target/properties.test-env folder
+1. Extent html report is generated under src/target/properties.test-env/ExtentReport folder
+2. A PDF report is generated under src/target/properties.test-env/Screenshot folder
