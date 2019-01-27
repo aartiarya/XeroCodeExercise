@@ -31,7 +31,6 @@ public class XeroFunctions extends Page
 	{
 
 		super(driver);
-		loginMap = init(loginYaml);
 		xeroMap = init(xeroYaml);
 
 	}
