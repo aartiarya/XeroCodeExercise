@@ -23,7 +23,7 @@ Dependencies
 
 5. Chrome Driver 2.45
 
-This is how the project framework structure looks like
+This is how the project framework structure looks like below
 ========================================================================
 
 
